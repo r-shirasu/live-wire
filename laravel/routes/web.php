@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Livewire\TodoList;
 use Illuminate\Support\Facades\Route;
 use App\Http\Livewire\TodoCreate;
 
@@ -29,3 +30,5 @@ Route::middleware([
 });
 
 Route::get("/todos/create", TodoCreate::class)->name("todos.create");
+
+Route::get("/todos", TodoList::class)->name("todos");
