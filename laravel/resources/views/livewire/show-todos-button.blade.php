@@ -1,4 +1,4 @@
 <button
-    class="flex-no-shrink p-2 border-2 rounded text-orange-400 border-orange-400 hover:text-white hover:bg-orange-400"
+    class="flex-no-shrink rounded border-2 border-orange-400 p-2 text-orange-400 hover:bg-orange-400 hover:text-white"
     onclick=location.href="{{ route('todos') }}">Show Todos
 </button>

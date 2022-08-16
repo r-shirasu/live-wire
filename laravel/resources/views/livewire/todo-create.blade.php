@@ -5,19 +5,19 @@
             <div class="m-4">
                 <div class="mb-4">
                     <label>
-                        <input class="shadow appearance-none border rounded w-full text-grey-darker py-2 px-3 mr-4"
+                        <input class="text-grey-darker mr-4 w-full appearance-none rounded border py-2 px-3 shadow"
                             placeholder="Todo Title" wire:model="title">
                     </label>
                 </div>
                 <div class="mt-4 mb-4">
                     <label>
-                        <textarea class="shadow appearance-none border-none rounded w-full text-grey-darker" placeholder="Todo content"
+                        <textarea class="text-grey-darker w-full appearance-none rounded border-none shadow" placeholder="Todo content"
                             wire:model="content"></textarea>
                     </label>
                 </div>
                 <div class="flex justify-center">
                     <button
-                        class="flex-no-shrink p-2 border-2 rounded text-teal-400 border-teal-400 hover:text-white hover:bg-teal-400"
+                        class="flex-no-shrink rounded border-2 border-teal-400 p-2 text-teal-400 hover:bg-teal-400 hover:text-white"
                         type="submit">Add
                     </button>
                 </div>

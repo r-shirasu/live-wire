@@ -1,6 +1,6 @@
-<div class="flex justify-between mb-5">
+<div class="mb-5 flex justify-between">
     <h1 class="text-3xl font-bold">Todo List</h1>
-    <button class="flex-no-shrink p-2 border-2 rounded text-blue-400 border-blue-400 hover:text-white hover:bg-blue-400"
+    <button class="flex-no-shrink rounded border-2 border-blue-400 p-2 text-blue-400 hover:bg-blue-400 hover:text-white"
         onclick=location.href="{{ route('todos.create') }}">NewTodo Create
     </button>
 </div>
@@ -14,11 +14,11 @@
                 </div>
                 <div>
                     <button
-                        class="justify-end p-2 ml-2 border-2 rounded text-red border-red hover:text-white hover:bg-teal-400"
+                        class="text-red border-red ml-2 justify-end rounded border-2 p-2 hover:bg-teal-400 hover:text-white"
                         onclick=location.href="{{ route('todos.show', ['todo' => $todo->id]) }}">Edit
                     </button>
                     <button
-                        class="justify-end p-2 ml-2 border-2 rounded text-red border-red hover:text-white hover:bg-red-400"
+                        class="text-red border-red ml-2 justify-end rounded border-2 p-2 hover:bg-red-400 hover:text-white"
                         wire:click="delete({{ $todo->id }})">Remove
                     </button>
                 </div>

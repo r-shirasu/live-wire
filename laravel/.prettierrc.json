@@ -1,11 +1,6 @@
 {
-    "overrides": [
-        {
-            "files": ["*.blade.php"],
-            "options": {
-                "tabWidth": 4,
-                "parser": "blade"
-            }
-        }
-    ]
+    "tabWidth": 4,
+    "wrapAttributes": "auto",
+    "sortTailwindcssClasses": true,
+    "plugins": ["@shufo/prettier-plugin-blade"]
 }
