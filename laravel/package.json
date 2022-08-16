@@ -2,7 +2,9 @@
     "private": true,
     "scripts": {
         "dev": "vite",
-        "build": "vite build"
+        "build": "vite build",
+        "prettier:write": "prettier --write .",
+        "prettier:check": "prettier --check ."
     },
     "devDependencies": {
         "@tailwindcss/forms": "^0.5.2",
