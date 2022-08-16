@@ -5,15 +5,14 @@
             <div class="m-4">
                 <div class="mb-4">
                     <label>
-                        <input
-                            class="shadow appearance-none border rounded w-full text-grey-darker py-2 px-3 mr-4"
+                        <input class="shadow appearance-none border rounded w-full text-grey-darker py-2 px-3 mr-4"
                             placeholder="Todo Title" wire:model="todo.title">
                     </label>
                 </div>
                 <div class="mt-4 mb-4">
                     <label>
-                                <textarea class="shadow appearance-none border-none rounded w-full text-grey-darker"
-                                          placeholder="Todo content" wire:model="todo.content"></textarea>
+                        <textarea class="shadow appearance-none border-none rounded w-full text-grey-darker" placeholder="Todo content"
+                            wire:model="todo.content"></textarea>
                     </label>
                 </div>
                 <div class="flex justify-center">
@@ -26,4 +25,3 @@
         </form>
     </div>
 </div>
-
